@@ -28,7 +28,8 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 100%;
-    margin: 133px 0 138px 50px;}
+    margin: 133px 0 138px 50px;
+}
 
 .contacts {
     font-family: Raleway;
@@ -38,7 +39,6 @@
     justify-self: end;
     width: 240px;
     margin: 95px 50px 100px;
-    border: 1px solid #000000;
 }
 
 .logo {
@@ -398,5 +398,4 @@
     font-size: 18px;
     line-height: 24.3px;
     width: 240px;
-    border: 1px solid #000000;
 }
