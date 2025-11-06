@@ -26,20 +26,15 @@
 .menu {
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
     line-height: 100%;
-    letter-spacing: 0%;
-    margin: 133px 0 138px 50px;
-}
+    margin: 133px 0 138px 50px;}
 
 .contacts {
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
     line-height: 24.3px;
-    letter-spacing: 0%;
     justify-self: end;
     width: 240px;
     margin: 95px 50px 100px;
@@ -66,78 +61,90 @@
 
 .cover {
     height: 757px;
-    background-image: url(/ono-tebe-nado-ad-main/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 180px;
+    position: relative;
 }
 
 .title_main {
     width: 1000px;
-    height: 385px;
+    height: 550px;
     font-family: Raleway;
     font-weight: 700;
-    font-style: Bold;
     font-size: 100px;
-    line-height: 114.99999999999999%;
+    line-height: 115%;
     letter-spacing: 30px;
     text-align: center;
     text-transform: uppercase;
     color: white;
-    margin: 165px 50px 0 50px;
+    margin: 0px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .span_left {
-    padding-top: 100px;
+    margin-top: 165px;
     display: block;
-    justify-self: start;
+    align-self: flex-start;
+    letter-spacing: 0.3em;
 }
 
 .span_center {
     display: block;
-    justify-self: center;
+    align-self: center;
+    letter-spacing: 0.3em;
 }
 
 .span_right {
     display: block;
-    justify-self: end;
+    align-self: flex-end;
+    letter-spacing: 0.3em;
 }
 
 .description {
     width: 1000px;
     display: flex;
-    margin: 106px 50px 50px 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 106px auto 50px;
     height: 51px;
 }
 
 .button {
     font-family: Raleway;
     font-weight: 500;
-    font-style: Medium;
     font-size: 22px;
     line-height: 100%;
-    letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
-    justify-content: end;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 32px;
+    cursor: pointer;
 }
 
 .subline {
     width: 637px;
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
     color: white;
     height: 28px;
-    padding-top: 13px;
+    word-spacing: 15px;
 }
 
 .lots {
-    width: 1052px;
-    margin: 0 24px 120px 24px;
+    width: 1100px;
+    margin: 0 auto 120px;
+    padding: 0 50px;
 }
 
 .title {
@@ -152,7 +159,6 @@
 
 .frames {
     display: flex;
-    flex-wrap: wrap;
     gap: 25px;
     list-style: none;
     margin-bottom: 30px;
@@ -161,8 +167,8 @@
 .frame-1,
 .frame-2,
 .frame-3 {
-    width: calc((100% - 50px) / 3);
-    min-height: 450px;
+    width: 334px;
+    min-height: 563px;
     flex-grow: 1;
 }
 
@@ -188,16 +194,16 @@
     background-repeat: no-repeat;
 }
 
-.lot-3 article {
-    background-image: url(/ono-tebe-nado-ad-main/images/card-lot-01.jpg);
+.lot-1 article {
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 .lot-2 article {
-    background-image: url(/ono-tebe-nado-ad-main/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
 }
 
-.lot-1 article {
-    background-image: url(/ono-tebe-nado-ad-main/images/card-lot-03.jpg);
+.lot-3 article {
+    background-image: url(../images/card-lot-03.jpg);
 }
 
 .lot-1 article::before,
@@ -243,14 +249,16 @@
     text-decoration: underline;
     color: #000;
     margin-left: 40px;
+    display: inline-block;
 }
 
 .about {
-    width: 1052px;
+    width: 1100px;
     display: grid;
     grid-template-columns: 430px 1fr;
     gap: 25px;
-    margin-bottom: 180px;
+    margin: 0 auto 180px;
+    padding: 0 50px;
 }
 
 .logo_column {
@@ -287,7 +295,6 @@
 }
 
 .description-block {
-    margin-right: 24px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -305,7 +312,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
-    padding: 180px 50px 90px;
+    height: 180px;
     width: 1100px;
     margin: 0 auto;
 }
@@ -387,10 +394,9 @@
 .contacts2 {
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
+    font-style: normal;
     font-size: 18px;
     line-height: 24.3px;
-    letter-spacing: 0%;
     width: 240px;
     border: 1px solid #000000;
 }
