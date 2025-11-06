@@ -1,17 +1,17 @@
-.menu_list{
+.menu_list {
     list-style: circle;
     display: flex;
     gap: 26px;
 }
 
-.header{
+.header {
     height: 293px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
 }
 
-.item_list{
+.item_list {
     text-decoration: underline;
 }
 
@@ -19,18 +19,18 @@
     list-style: none;
 }
 
-.item_list_activate{
+.item_list_activate {
     text-decoration: none;
 }
 
-.menu{
+.menu {
     font-family: Raleway;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
-    margin: 133px 0 138px  50px;
+    margin: 133px 0 138px 50px;
 }
 
 .contacts {
@@ -40,11 +40,10 @@
     font-size: 18px;
     line-height: 24.3px;
     letter-spacing: 0%;
-    justify-self: center;
-    width: 240px;
     justify-self: end;
+    width: 240px;
     margin: 95px 50px 100px;
-    border: 1px solid #000000
+    border: 1px solid #000000;
 }
 
 .logo {
@@ -53,19 +52,19 @@
     opacity: 1;
 }
 
-.namber{
+.namber {
     color: #000000;
     display: block;
     text-decoration: underline;
 }
 
-.mail{
+.mail {
     color: #000000;
     display: block;
     text-decoration: underline;
 }
 
-.cover{
+.cover {
     height: 757px;
     background-image: url(/ono-tebe-nado-ad-main/images/cover.jpg);
     background-color: rgba(0, 0, 0, 0.6);
@@ -73,7 +72,7 @@
     margin-bottom: 180px;
 }
 
-.title_main{
+.title_main {
     width: 1000px;
     height: 385px;
     font-family: Raleway;
@@ -88,30 +87,30 @@
     margin: 165px 50px 0 50px;
 }
 
-.span_left{
+.span_left {
     padding-top: 100px;
     display: block;
     justify-self: start;
 }
 
-.span_center{
+.span_center {
     display: block;
     justify-self: center;
 }
 
-.span_right{
+.span_right {
     display: block;
     justify-self: end;
 }
 
-.description{
+.description {
     width: 1000px;
     display: flex;
     margin: 106px 50px 50px 50px;
     height: 51px;
 }
 
-.button{
+.button {
     font-family: Raleway;
     font-weight: 500;
     font-style: Medium;
@@ -312,7 +311,6 @@
 }
 
 .footer .contacts {
-    justify-self: start;
     font-family: Raleway;
     font-weight: 400;
     font-size: 18px;
@@ -379,9 +377,6 @@
     display: block;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .footer__social-icon {
@@ -397,5 +392,5 @@
     line-height: 24.3px;
     letter-spacing: 0%;
     width: 240px;
-    border: 1px solid #000000
+    border: 1px solid #000000;
 }
