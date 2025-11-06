@@ -1,7 +1,15 @@
 .menu_list {
     list-style: circle;
     display: flex;
-    gap: 26px;
+    gap: 30px;
+}
+
+.f2{
+    margin-left: 2px;
+}
+
+.f3{
+    margin-left: 2px;
 }
 
 .header {
@@ -66,7 +74,7 @@
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
-    margin-bottom: 180px;
+    margin-bottom: 183px;
     position: relative;
 }
 
@@ -97,12 +105,15 @@
 .span_center {
     display: block;
     align-self: center;
+    padding-left: 30px;
+    padding-top: 20px;
     letter-spacing: 0.3em;
 }
 
 .span_right {
     display: block;
-    align-self: flex-end;
+    padding-left: 642px;
+    padding-top: 20px;
     letter-spacing: 0.3em;
 }
 
@@ -138,13 +149,13 @@
     text-transform: uppercase;
     color: white;
     height: 28px;
-    word-spacing: 15px;
+    word-spacing: 18.5px;
 }
 
 .lots {
-    width: 1100px;
-    margin: 0 auto 120px;
-    padding: 0 50px;
+    width: 1052px;
+    height: 723px;
+    margin: 0 24px 152px 24px;
 }
 
 .title {
@@ -153,7 +164,7 @@
     font-size: 40px;
     line-height: 100%;
     text-transform: uppercase;
-    margin-bottom: 27px;
+    margin-bottom: 31px;
     margin-left: 40px;
 }
 
@@ -161,14 +172,14 @@
     display: flex;
     gap: 25px;
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 31px;
 }
 
 .frame-1,
 .frame-2,
 .frame-3 {
     width: 334px;
-    min-height: 563px;
+    min-height: 580px;
     flex-grow: 1;
 }
 
@@ -229,6 +240,7 @@
     text-decoration: underline;
     text-transform: uppercase;
     color: white;
+    margin-bottom: 33px;
 }
 
 .card_text {
@@ -254,16 +266,17 @@
 
 .about {
     width: 1100px;
+    height: 740px;
     display: grid;
-    grid-template-columns: 430px 1fr;
-    gap: 25px;
-    margin: 0 auto 180px;
+    grid-template-columns: 240px 693px;
+    gap: 92px;
+    margin: 0 auto 0px;
     padding: 0 50px;
 }
 
 .logo_column {
-    display: flex;
-    justify-content: center;
+
+    margin-left: 20px;
 }
 
 .about__logo {
@@ -290,14 +303,17 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
-    text-transform: uppercase;
     margin-bottom: 100px;
+    margin-top: 5px;
 }
 
 .description-block {
+    width: 685px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-top: 104px;
 }
 
 .about__text {
@@ -347,6 +363,7 @@
 }
 
 .footer__menu-list {
+    line-height:0%;
     list-style: none;
     text-align: center;
 }
@@ -369,6 +386,7 @@
 }
 
 .footer__social-list {
+    margin-right: 50px;
     list-style: none;
     display: flex;
     gap: 48px;
@@ -392,10 +410,11 @@
 }
 
 .contacts2 {
+    margin-left: 50px;
     font-family: Raleway;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
     line-height: 24.3px;
-    width: 240px;
+    width: 260px;
 }
